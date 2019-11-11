@@ -22,7 +22,7 @@ Thank you for your feedback over the weekend. Your support was unprecidented and
       
        * Sets the permissions w/ chmod -R 700 
        * Creates a path for all scripts with the following commands: 
-                    add (with option to include arguments, like "save cmpt251")
+                    add (with option to include arguments, like "save cmpt251"),
                     complete,
                     list,
                     list completed,
