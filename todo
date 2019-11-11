@@ -3,22 +3,27 @@
 if [ $1 == "add" ] 
 then
 ./usrMenu/add/add.sh "$@"
+./usrMenu/pmptUser.sh
 
 elif [ $1 == "help" ] 
 then
 ./usrMenu/help/help.sh "$@"
+./usrMenu/pmptUser.sh
 
 elif [[ $1 == "list" && -z "$2" ]]
 then 
 ./usrMenu/list/listToDo.sh "$@"
+./usrMenu/pmptUser.sh
 
 elif [[ $1 == "list" && $2 == "completed" ]]
 then
 ./usrMenu/list/listToDone.sh "$@"
+./usrMenu/pmptUser.sh
 
 elif [ $1 == "complete" ]
 then
 ./usrMenu/complete/movItem.sh "$@"
+./usrMenu/pmptUser.sh
 
 elif [ $1 == "menu" ] 
 then 

@@ -16,32 +16,39 @@ while [ $count -lt 1 ]; do
 
 if [ $userIn == "a" ]
 then 
-~/todoApp/usrMenu/add/add.sh
+~/todo/todo/usrMenu/add/add.sh
+./usrMenu/pmptUser.sh
+break
 
 elif [ $userIn == "b" ] 
 then
 echo "which file have you completed?"
 read filename
 echo $filename
-~/todoApp/usrMenu/complete/movItem.sh "-z" "$filename"
+~/todo/todo/usrMenu/complete/movItem.sh "-z" "$filename"
+./usrMenu/pmptUser.sh
+break
 
 elif [ $userIn == "c" ]
 then
-~/todoApp/usrMenu/list/listToDone.sh
+~/todo/todo/usrMenu/list/listToDone.sh
+./usrMenu/pmptUser.sh
 break
 
 elif [ $userIn == "d" ]
 then
-~/todoApp/usrMenu/list/listToDo.sh
+~/todo/todo/usrMenu/list/listToDo.sh
+./usrMenu/pmptUser.sh
 break
 
 elif [ $userIn  == "q" ]
 then
 	count="1"
+	echo "ok, quitting." 
 	break
 
 else
-~/todoApp/usrMenu/pmptUser.sh
+~/todo/todo/usrMenu/pmptUser.sh
 	
 fi
 done

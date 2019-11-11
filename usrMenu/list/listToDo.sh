@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#this prints the items (.txt) in subdir todo
+#this prints the items (.txt) in subdir todoList
 
-for filename in ~/todoApp/usrMenu/todo/*
+for filename in ~/todo/todo/usrMenu/todoList/*
 do
 	echo "${filename##*/}"
 	cat $filename

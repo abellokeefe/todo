@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/todoApp/usrMenu/todo && a=($(ls | wc -l ))
+cd ~/todo/todo/usrMenu/todoList & a=($(ls | wc -l ))
 
 echo $a
 
