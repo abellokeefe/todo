@@ -7,7 +7,7 @@ Thank you for your feedback over the weekend. Your support was unprecidented and
 **In response to your feedback:**
   1)   With shortage of time and experience with linux directories, I was unable to fix the directory names. 
        In fact, in trying to rename stuff I created an unnecessary directory, which I'm scared to try and delete. 
-       That said, the app works. You can just tell a rookie did this and spent like 12 hours working on it.
+       That said, the app works. You can just tell a rookie did this and, hopefully you can also tell, spent like 14+ hours working on this.....
   2)   All ./todo commands now work :)
   3)   All menu options now work :) 
   
