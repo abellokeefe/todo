@@ -47,8 +47,6 @@ CMPT251 Linux Project
       * ./usrMenu/toDone    contains all text files for to-do's that are done. To read the information about each item, 
                             the list function (listToDone.sh) will give the name and info
                             
-Thanks again!
-
      
                             
       
