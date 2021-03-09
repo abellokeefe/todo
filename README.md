@@ -1,8 +1,5 @@
 # todo
-CMPT251 Linux Project: To-Do App
-
-Hey, Dalton!
-Thank you for your feedback over the weekend. Your support was unprecidented and helped me out a lot :D
+CMPT251 Linux Project
 
 **In response to your feedback:**
   1)   With shortage of time and experience with linux directories, I was unable to fix the directory names. 
